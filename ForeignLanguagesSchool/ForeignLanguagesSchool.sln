@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppointmentScheduling", "AppointmentScheduling", "{3BF05563-8E1D-4B52-A893-3610E122EB35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientStudentManagement", "ClientStudentManagement", "{97114E9C-C76A-4366-95AB-26C5A4041E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{984D7276-703C-488B-934A-2038B460BC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Core", "AppointmentScheduling.Core\AppointmentScheduling.Core.csproj", "{5CC58A9A-3B52-4C21-B9B8-B9544DA8E354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.UnitTests", "AppointmentScheduling.UnitTests\AppointmentScheduling.UnitTests.csproj", "{8DAB67BC-5BFB-4A47-B33A-C70CEABC34DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.IntegrationTests", "AppointmentScheduling.IntegrationTests\AppointmentScheduling.IntegrationTests.csproj", "{67751087-598E-4BF3-859D-23CD9567F9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStudentManagement.Core", "ClientStudentManagement.Core\ClientStudentManagement.Core.csproj", "{6E82DAE4-D48B-44D4-A0DB-CBBBE2D75C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStudentManagement.Data", "ClientStudentManagement.Data\ClientStudentManagement.Data.csproj", "{A1F84830-72C5-4648-AB0F-973E516B6341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStudentManagement.IntegrationTests", "ClientStudentManagement.IntegrationTests\ClientStudentManagement.IntegrationTests.csproj", "{C8ED539D-553C-41D2-A57C-7340766C8F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStudentManagement.UnitTests", "ClientStudentManagement.UnitTests\ClientStudentManagement.UnitTests.csproj", "{EF713855-F74B-41F3-93C3-916D3ED86C31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9E1B7F69-0BC2-4069-8396-785F7B8EE372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResourceScheduling", "ResourceScheduling", "{70D5E932-E02B-4D24-B6A5-17EA8D5404D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedDatabaseManagementTools", "SharedDatabaseManagementTools", "{8FB8DFDA-F17C-4033-A745-D7319B7E72E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC58A9A-3B52-4C21-B9B8-B9544DA8E354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC58A9A-3B52-4C21-B9B8-B9544DA8E354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC58A9A-3B52-4C21-B9B8-B9544DA8E354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC58A9A-3B52-4C21-B9B8-B9544DA8E354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAB67BC-5BFB-4A47-B33A-C70CEABC34DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAB67BC-5BFB-4A47-B33A-C70CEABC34DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAB67BC-5BFB-4A47-B33A-C70CEABC34DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAB67BC-5BFB-4A47-B33A-C70CEABC34DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67751087-598E-4BF3-859D-23CD9567F9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67751087-598E-4BF3-859D-23CD9567F9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67751087-598E-4BF3-859D-23CD9567F9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67751087-598E-4BF3-859D-23CD9567F9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E82DAE4-D48B-44D4-A0DB-CBBBE2D75C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E82DAE4-D48B-44D4-A0DB-CBBBE2D75C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E82DAE4-D48B-44D4-A0DB-CBBBE2D75C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E82DAE4-D48B-44D4-A0DB-CBBBE2D75C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F84830-72C5-4648-AB0F-973E516B6341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F84830-72C5-4648-AB0F-973E516B6341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F84830-72C5-4648-AB0F-973E516B6341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F84830-72C5-4648-AB0F-973E516B6341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8ED539D-553C-41D2-A57C-7340766C8F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8ED539D-553C-41D2-A57C-7340766C8F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8ED539D-553C-41D2-A57C-7340766C8F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8ED539D-553C-41D2-A57C-7340766C8F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF713855-F74B-41F3-93C3-916D3ED86C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF713855-F74B-41F3-93C3-916D3ED86C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF713855-F74B-41F3-93C3-916D3ED86C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF713855-F74B-41F3-93C3-916D3ED86C31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CC58A9A-3B52-4C21-B9B8-B9544DA8E354} = {3BF05563-8E1D-4B52-A893-3610E122EB35}
+		{8DAB67BC-5BFB-4A47-B33A-C70CEABC34DD} = {3BF05563-8E1D-4B52-A893-3610E122EB35}
+		{67751087-598E-4BF3-859D-23CD9567F9B9} = {3BF05563-8E1D-4B52-A893-3610E122EB35}
+		{6E82DAE4-D48B-44D4-A0DB-CBBBE2D75C17} = {97114E9C-C76A-4366-95AB-26C5A4041E45}
+		{A1F84830-72C5-4648-AB0F-973E516B6341} = {97114E9C-C76A-4366-95AB-26C5A4041E45}
+		{C8ED539D-553C-41D2-A57C-7340766C8F0C} = {97114E9C-C76A-4366-95AB-26C5A4041E45}
+		{EF713855-F74B-41F3-93C3-916D3ED86C31} = {97114E9C-C76A-4366-95AB-26C5A4041E45}
+		{9E1B7F69-0BC2-4069-8396-785F7B8EE372} = {3BF05563-8E1D-4B52-A893-3610E122EB35}
+	EndGlobalSection
+EndGlobal
