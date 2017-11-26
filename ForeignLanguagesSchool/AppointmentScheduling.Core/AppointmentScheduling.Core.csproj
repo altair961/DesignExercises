@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\ScheduleAggregate\Appointment.cs" />
+    <Compile Include="Model\ScheduleAggregate\Schedule.cs" />
     <Compile Include="Model\ScheduleAggregate\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
