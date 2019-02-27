@@ -4,9 +4,11 @@ namespace WebShop.Notification.Api
 {
     public class NotificationController : ApiController
     {
-        public IHttpActionResult Get()
+        [Route("customers/{customerId}")]
+        [HttpGet]
+        public string FindCustomerNameById(int customerId)
         {
-            return Ok("Hello, Web API");
+            return "John";
         }
     }
 }

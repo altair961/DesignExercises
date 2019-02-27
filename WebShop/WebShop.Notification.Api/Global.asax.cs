@@ -7,9 +7,7 @@ namespace WebShop.Notification.Api
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            GlobalConfiguration.Configuration.Routes.MapHttpRoute("Default",
-                "{controller}/{id}",
-                new { id = RouteParameter.Optional });
+            GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
 }
