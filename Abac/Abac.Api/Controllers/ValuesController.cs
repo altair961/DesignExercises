@@ -12,7 +12,7 @@ namespace Abac.Api.Controllers
     {
         // GET api/values
         [HttpGet]
-        [Authorize(Policy = "AtLeast21")]
+        [Authorize(Policy = "AgeLimit")]
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
