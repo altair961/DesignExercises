@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceContextConstraints
+namespace TaxiManager.Interfaces
 {
-    class Program
+    interface IVehicle
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
